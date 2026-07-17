@@ -1,0 +1,667 @@
+@font-face {
+    font-family: Kulim Park_SemiBold;
+    src: url(../шрифты/KulimPark-SemiBold.ttf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: Kulim Park_Light;
+    src: url(../шрифты/KulimPark-Light.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: Kulim Park_Bold;
+    src: url(../шрифты/KulimPark-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: Kulim Park__ExtraLight;
+    src: url(../шрифты/KulimPark-ExtraLight.ttf);
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: Kulim Park__Regular;
+    src: url(../шрифты/KulimPark-Regular.ttf);
+    font-weight: 400;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 78px;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+   
+   
+}
+
+
+
+
+.header__hat{
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+      max-width: 1320px;
+    width: 100%;
+    margin: 0 auto;
+    
+    position: relative;
+}
+
+.header__hat-nav{
+    display: flex;
+    list-style: none;
+    gap: 24px;
+
+}
+
+.hat__nav-item{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    font-family: Kulim Park__Regular;
+
+    color: rgba(61, 61, 61, 1);
+    text-decoration: none;
+}
+
+.header__hat-logo{
+  
+   
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) translateY(5px);
+}
+
+.header__hat-button{
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    font-family: Kulim Park__Regular;
+    background-color: white;
+    border: 1px solid rgba(102, 102, 102, 1);
+
+    padding:
+    14px 24px;
+    border-radius: 24px;
+}
+
+
+.header__body{
+    max-width: 1320px;
+    width: 100%;
+    
+    margin: 0 auto;
+    
+    background-image: url(../pav/Картинка\ сурков.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+    min-height: 696px;
+}
+
+.header__body-info{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    
+    padding: 24px 24px;
+}
+
+.info__title{
+
+    font-weight: 600;
+    font-size: 100px;
+    line-height: 100%;
+    font-family: Kulim Park_SemiBold;
+    color: rgba(255, 255, 255, 1);
+    
+}
+
+.info__desc{
+
+    font-weight: 250;
+    font-size: 20px;
+    line-height: 100%;
+    font-family: Kulim Park__ExtraLight;
+
+    align-self: flex-end;
+    color: rgba(255, 255, 255, 1);
+}
+
+.header__body-input{
+   margin-top: auto;
+   width: 162px;
+   height: 162px;
+
+   border-radius: 50%;
+   border: 1px solid rgba(255, 255, 255, 1);
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 16px;
+}
+
+.input__button{
+
+    width: 148px;
+    height: 148px;
+    border-radius: 50%;
+    border: none;
+    
+
+    color: rgba(191, 99, 47, 1);
+
+    font-size: 22px;
+    line-height: 100%;
+    font-weight: 400;
+    font-family: Kulim Park_Regular;
+}/*header тоже получился как надо тут особо подгонов нет*/
+
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 78px;
+    width: 100%;
+    
+}
+
+.container__lion{
+
+    max-width: 1320px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.lion__info{
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    align-items: flex-start;
+
+
+}
+
+.info__part-1{
+
+    font-family: Kulim Park_Light;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 100%;
+    color: rgba(62, 62, 62, 1);
+}
+
+.info__part-2{
+    font-family: Kulim Park_Light;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 100%;
+    color: rgba(62, 62, 62, 1);
+}
+
+.info__button{
+    
+    margin: 0 auto;
+    border: none;
+    border-radius: 36px;
+    font-family: Kulim Park_Light;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 100%;
+
+
+    background-color: rgba(188, 94, 40, 1);
+    padding:
+    14px 100px;
+    
+}
+
+.cards{
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 42px;
+    
+   
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    
+}
+
+.card__title{
+    font-weight: 600;
+    font-family: Kulim Park_SemiBold;
+    font-size: 36px;
+    line-height: 100%;
+
+}
+
+.card__desc{
+    font-weight: 300;
+    font-family: Kulim Park_Light;
+    font-size: 24px;
+    line-height: 100%;
+}
+
+
+.we__work{
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+   
+
+}
+
+
+.work__images{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    
+    
+    
+   
+}
+
+.image__1{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    margin-right: auto;
+    
+    
+}
+
+.image__2{
+    width: 190px;
+    height: 190px;
+    object-fit: cover;
+    margin: 0 auto;
+    
+}
+
+
+.work__info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 36px;
+}
+
+.work__info-title{
+    font-weight: 600;
+    font-family: Kulim Park_SemiBold;
+    font-size: 45px;
+    line-height: 100%;
+    color: rgba(62, 62, 62, 1);
+}
+
+.work__info-desc{
+
+    font-weight: 300;
+    font-family: Kulim Park_Light;
+    font-size: 14px;
+    line-height: 100%;
+    color: rgba(62, 62, 62, 1);
+}
+
+.work__nav{
+   
+   list-style: none;
+   display: flex;
+   flex-direction: column;
+   gap: 28px;
+
+}
+
+.work{
+
+    font-weight: 300;
+    font-family: Kulim Park_Light;
+    font-size: 20px;
+    line-height: 100%;
+    color: rgba(62, 62, 62, 1);
+    text-decoration: none;
+}
+
+.work__nav-item{
+    
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    gap: 4px;
+    align-items: center;
+}
+
+.work__nav-item::before{
+
+    position: absolute;
+    left: 0;
+    top: -5px;
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: black;
+}
+
+.nav-item--last::after{
+
+    position: absolute;
+    left: 0;
+    bottom: -15px;
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: black;
+}
+
+.arrow{
+    width: 18px;
+    height: 18px;
+    object-fit: cover;
+}
+
+.elephant{
+
+    margin: 0 auto;
+    max-width: 1320px;
+    width: 100%;
+    min-height: 670px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url(../pav/Rectangle\ 7\ \(1\).png);
+    background-repeat:no-repeat;
+    background-size: contain;
+}
+
+.elephant__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.elephant__title{
+    font-family: Kulim Park_SemiBold;
+    font-size: 50px;
+    line-height: 100%;
+    font-weight: 600;
+
+    color: rgba(255, 255, 255, 1);
+}
+
+.elephant__desc{
+    font-family: Kulim Park__Light;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 100%;
+
+    color: rgba(255, 255, 255, 1);
+}
+
+
+.elephant__button{
+
+    font-family: Kulim Park_Light;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 100%;
+
+    color: rgba(255, 255, 255, 1);
+
+    padding: 8px 16px;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 36px;
+
+}
+
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 48px;
+
+    max-width: 1320px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.footer::before{
+
+    inset: 0;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: rgba(62, 62, 62, 1);
+}
+
+.footer__upper{
+
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 78px;
+    padding: 16px;
+}
+
+.footer__upper-nav{
+    
+    display: flex;
+    justify-content: space-between;
+    
+   
+}
+
+.upper__nav{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    list-style: none;
+}
+
+.nav__title{
+
+    font-family: Kulim Park_Light;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 100%;
+
+    color: rgba(62, 62, 62, 1);
+}
+
+.item__reference{
+    text-decoration: none;
+
+    font-family: Kulim Park__Light;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 100%;
+
+    color: rgba(62, 62, 62, 1);
+}
+
+
+.footer__upper-form{
+    
+    display: flex;
+    flex-direction: column;
+    
+    gap: 36px;
+   
+}
+
+.form__title{
+
+    font-family: Kulim Park_Light;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 100%;
+
+    color: rgba(62, 62, 62, 1);
+}
+
+.label__inputs{
+    display: flex;
+    flex-direction: column;
+    
+    gap: 4px;
+    
+    
+}
+
+.input__email{
+
+    font-weight: 300;
+    font-family: Kulim Park_Light;
+    font-size: 13px;
+    line-height: 100%;
+    border: none;
+    outline: none;
+    
+    color: rgba(151, 151, 151, 1);
+    padding: 4px 6px;
+    
+}
+
+.email__wrapper{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.email__wrapper::after{
+    left: 0;
+    bottom: 1px;
+    content: "";
+    background-color: rgba(151, 151, 151, 1);
+    width: 100%;
+    height: 1px;
+}
+
+.checkbox__wrapper{
+    display: flex;
+    gap: 2px;
+    align-items: cent;
+}
+
+.checkbox__wrapper::after{
+
+    content: "Согласен с обработкой персональных данных.";
+
+    right: 2px;
+    font-family: Kulim Park__Light;
+    font-size: 7px;
+    font-weight: 300;
+    line-height: 100%;
+
+    color: rgba(151, 151, 151, 1);
+}
+
+.form__buttons{
+    
+    display: flex;
+    gap: 12px;
+}
+
+.button{
+
+    padding: 8px 18px;
+    border-radius: 36px;
+    background: transparent;
+
+    border: 1px solid rgba(217, 217, 217, 1);
+
+    color: rgba(151, 151, 151, 1);
+
+    font-weight: 400;
+    font-family: Kulim Park__Regular;
+    font-size: 16px;
+    line-height: 100%;
+}
+
+.footer__lower-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__desc-span{
+    font-family: Kulim Park__Light;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 100%;
+
+    color: rgba(151, 151, 151, 1);
+}
+
+.nav__desc{
+    list-style: none;
+}
+
+.nav__logo{
+    list-style: none;
+    position: relative;
+    
+    
+}
+
+
+
+.nav__logo-img{
+
+    width: 60px;
+    height: 70px;
+    object-fit: cover;
+}
+
+.nav__logo-copyright{
+    position: absolute;
+    bottom: 10px;
+    right: 0px;
+    width: 15px;
+    height: 15px;
+}
