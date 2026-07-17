@@ -412,3 +412,4 @@ store.subscribe(renderProduct)
 store.subscribe(renderCategories)
 loadProducts()
 
+//ну вот
