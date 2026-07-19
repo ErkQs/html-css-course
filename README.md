@@ -27,9 +27,3 @@
 ## Status
 
 Project is in progress.
-
-## Learning Goals
-
-- Practice Git basics
-- Learn GitHub workflow
-- Prepare projects for portfolio
