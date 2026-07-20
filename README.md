@@ -31,3 +31,5 @@ Project is in progress.
 ## GitHub practice
 
 This line was added after the first successful push.
+
+This line was added directly on GitHub.
